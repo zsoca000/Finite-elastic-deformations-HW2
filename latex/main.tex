@@ -166,7 +166,7 @@ Following the ABAQUS formulation, the elastic behaviour can be defined by the Ho
     \overset{\circ}{\boldsymbol{\sigma}}  = \frac{E}{1+\nu}\left(\boldsymbol{d}^e+\frac{\nu}{1-2\nu}(\text{tr}\boldsymbol{d}^e)\boldsymbol{I}\right) := \mathbb{D} : \boldsymbol{d}^e,
 \end{equation}
 
-where the $\overset{\circ}{\boldsymbol{\sigma}}$ denotes the Jaumann rate of the Cauchy stress tensor. The discrete form Hooke's law in the rotated coordinate system looks like 
+where the $\overset{\circ}{\boldsymbol{\sigma}}$ denotes the Jaumann rate of the Cauchy stress tensor. The discrete form of the Hooke's law in the rotated coordinate system looks like 
 
 \begin{equation}
     \tilde{\boldsymbol{\sigma}}_{n+1}  = \tilde{\boldsymbol{\sigma}}_{n} + 
@@ -203,7 +203,7 @@ Furthermore the characteristic of the Yield stress is defined by the following S
 
 \section*{Solution}
 
-My implementation of the radial-retirn algorith for this hypoelastic-plastic model in Python language is the following:
+My implementation of the radial-retirn algorithm for this hypoelastic-plastic model in Python language is the following:
 
 \lstset{style=python}
 \begin{lstlisting}
@@ -215,13 +215,14 @@ _lambda = np.zeros(N)
 
 for n in range(N-1):
     dt = t[n+1] - t[n]
-    t_mid = t[n]+dt/2
+    w_mid = (w[n+1] + w[n])/2
+    d_mid = (d[n+1] + d[n])/2
 
     # Hughes-Winget
-    Q[n+1] = inv(I - 1/2*w(t_mid)*dt) @ (I + 1/2*w(t_mid)*dt) @ Q[n]
-    Q_mid = Q[n+1]
+    Q[n+1] = inv(I - 1/2*w_mid*dt) @ (I + 1/2*w_mid*dt) @ Q[n]
+    Q_mid = Q[n+1] 
 
-    deps_tilde = Q_mid.T @ d(t_mid)* dt @ Q_mid
+    deps_tilde = Q_mid.T @ d_mid* dt @ Q_mid
 
     # Step 3: trial stress
     sig_trial_tilde = sig_tilde[n] + D(deps_tilde)
@@ -230,7 +231,6 @@ for n in range(N-1):
     # Step 4: trial yield function
     F_trial = (3/2)**(1/2) * norm(s_trial_tilde) - Y[n]
 
-    # Step5: decision
     if F_trial <= 0:
         # Step 6: Elastic increment
         sig_tilde[n+1] = sig_trial_tilde
