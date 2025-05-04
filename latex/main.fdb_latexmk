@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1746366571.9941 "c:/Users/rdsup/Desktop/Finite-elastic-deformations-HW2/latex/main.tex" "main.pdf" "main" 1746366581.50815 0
+["pdflatex"] 1746366670.96331 "c:/Users/rdsup/Desktop/Finite-elastic-deformations-HW2/latex/main.tex" "main.pdf" "main" 1746366679.8667 0
   "C:/Users/rdsup/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1743800173 319829 7a5a640d46b5de74b1e9e3f84fcbfba8 ""
   "C:/Users/rdsup/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1740413720 12015783 f0c2336a7da70ce41d7e5b252576240c ""
   "C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1001775420 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -262,14 +262,14 @@
   "C:/Users/rdsup/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/rdsup/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/rdsup/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/rdsup/Desktop/Finite-elastic-deformations-HW2/latex/main.tex" 1746366560 8887 9c64ca63f9415d013d1ef0488890c489 ""
+  "c:/Users/rdsup/Desktop/Finite-elastic-deformations-HW2/latex/main.tex" 1746366669 8887 81f1aac8f3302cd50f3780ea3839b31d ""
   "figures/cube.png" 1746302333 41856 a26fda6e2ceaaa29c1cea100f8a12121 ""
   "figures/loading.png" 1746362923 44777 bee19306195bac51b303239bd95ca459 ""
   "figures/sol_1000incr.png" 1746365196 190410 4d3dbb4dcbf88b689f8c7d9cba1b807f ""
   "figures/sol_5incr.png" 1746365161 194645 83fc8d36290b88895618d5a21ae2ba3d ""
-  "main.aux" 1746366580 1348 e5ed6eb6fd53430d03fb6b08520e417e "pdflatex"
-  "main.out" 1746366576 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1746366560 8887 9c64ca63f9415d013d1ef0488890c489 ""
+  "main.aux" 1746366678 1348 e5ed6eb6fd53430d03fb6b08520e417e "pdflatex"
+  "main.out" 1746366675 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1746366669 8887 81f1aac8f3302cd50f3780ea3839b31d ""
   (generated)
   "main.aux"
   "main.log"
