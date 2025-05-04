@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.24)  3 MAY 2025 22:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.2) (preloaded format=pdflatex 2025.2.24)  4 MAY 2025 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -869,15 +869,20 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/rdsup/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-<figures/cube.png, id=19, 455.301pt x 381.22424pt>
+<figures/cube.png, id=15, 455.301pt x 381.22424pt>
 File: figures/cube.png Graphic file (type png)
 <use figures/cube.png>
-Package pdftex.def Info: figures/cube.png  used on input line 91.
-(pdftex.def)             Requested size: 227.64993pt x 190.61165pt.
-<figures/loading.png, id=22, 570.933pt x 209.583pt>
+Package pdftex.def Info: figures/cube.png  used on input line 89.
+(pdftex.def)             Requested size: 182.11717pt x 152.48698pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+<figures/loading.png, id=18, 570.933pt x 209.583pt>
 File: figures/loading.png Graphic file (type png)
 <use figures/loading.png>
-Package pdftex.def Info: figures/loading.png  used on input line 110.
+Package pdftex.def Info: figures/loading.png  used on input line 108.
 (pdftex.def)             Requested size: 386.95897pt x 142.05403pt.
 
 
@@ -892,12 +897,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.129 \newpage
+l.124 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.129 \newpage
+l.124 \newpage
                <./figures/cube.png> <./figures/loading.png>]
 
 
@@ -907,7 +912,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[3]
+[3] (C:\Users\rdsup\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 216.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -916,26 +926,75 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
 
-[4] (main.aux)
+[4]
+<figures/sol_5incr.png, id=112, 496.35036pt x 643.203pt>
+File: figures/sol_5incr.png Graphic file (type png)
+<use figures/sol_5incr.png>
+Package pdftex.def Info: figures/sol_5incr.png  used on input line 268.
+(pdftex.def)             Requested size: 386.95897pt x 501.45096pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.273 \newpage
+               <./figures/sol_5incr.png>]
+<figures/sol_1000incr.png, id=121, 496.35036pt x 645.51564pt>
+File: figures/sol_1000incr.png Graphic file (type png)
+<use figures/sol_1000incr.png>
+Package pdftex.def Info: figures/sol_1000incr.png  used on input line 281.
+(pdftex.def)             Requested size: 386.95897pt x 503.25392pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.286 \newpage
+               <./figures/sol_1000incr.png>]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 27.11469pt, for example:
+(fancyhdr)                \setlength{\headheight}{27.11469pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-15.11469pt}.
+
+[7] (main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A11EA37CFA35B78134C59E09BF80971A;63.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36700 strings out of 473523
- 827028 string characters out of 5714630
- 1333953 words of memory out of 5000000
- 59303 multiletter control sequences out of 15000+600000
- 576235 words of font info for 89 fonts, out of 8000000 for 9000
+ 37252 strings out of 473523
+ 832767 string characters out of 5714630
+ 1630596 words of memory out of 5000000
+ 59782 multiletter control sequences out of 15000+600000
+ 579161 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,101p,811b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on main.pdf (4 pages, 231910 bytes).
+ 99i,11n,101p,811b,1287s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1728.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm0600.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Users/rdsup/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on main.pdf (7 pages, 647925 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
